@@ -54,7 +54,7 @@ header {
 }
 
 .main-wrap {
-    height: 800px;
+    min-height: 800px;
     width: 100%;
     max-width: 1200px;
     background-color: coral;
@@ -67,7 +67,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 700px;
+    min-height: 700px;
     width: 100%;
     max-width: 1200px;
     background-color: gray;
@@ -79,5 +79,5 @@ header {
     align-items: center;
     margin-top: 20px;
     border: solid 1px orangered;
-    height: 300px;
+    height: 350px;
 }
