@@ -164,7 +164,7 @@ class Cart extends List{
 }
 
 class CartItem extends Item{
-    constructor(el, img = 'https://via.placehold.it/50x100'){
+    constructor(el, img = 'https://via.placeholder.com/50x100'){
         super(el, img);
         this.quantity = el.quantity;
     }
